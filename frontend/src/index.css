@@ -1,0 +1,65 @@
+:root {
+  /* Todoist-Inspired Industrial Palette */
+  --text: #6b6375;
+  --text-h: #202020;
+  --bg: #ffffff;
+  --sidebar-bg: #faf9f8;
+  --border: #f0f0f0;
+  --code-bg: #f4f3ec;
+  --accent: #dc4c3e;
+  --accent-bg: rgba(220, 76, 62, 0.1);
+  --accent-hover: #eeeeee;
+  --shadow: rgba(0, 0, 0, 0.05) 0 1px 2px 0;
+
+  --sans: 'Segoe UI', system-ui, Roboto, sans-serif;
+  
+  /* UPDATED FONT SIZE: Moved from 14px to 18px */
+  font-size: 18px; 
+  line-height: 1.6;
+  color: var(--text);
+  background: var(--bg);
+  font-family: var(--sans);
+  
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Updated Header Sizes for "Medium-Big" Feel */
+h1 {
+  font-size: 2.5rem; /* ~45px */
+  font-weight: 800;
+  color: var(--text-h);
+  margin-bottom: 24px;
+  letter-spacing: -1px;
+}
+
+h2 {
+  font-size: 1.8rem; /* ~32px */
+  font-weight: 700;
+  color: var(--text-h);
+  margin-bottom: 12px;
+}
+
+h3 {
+  font-size: 1.4rem; /* ~25px */
+  font-weight: 600;
+  color: var(--text-h);
+}
+
+/* Adjusting Sidebar Links for the larger font */
+a {
+  font-size: 1.1rem; /* ~20px */
+  padding: 12px 16px;
+  font-weight: 500;
+}
+
+/* Adjusting Input fields */
+input[type="text"] {
+  font-size: 1.1rem;
+  padding: 14px;
+}
+
+/* Ensure the task items scale up */
+.todo-item span, .task-card span {
+  font-size: 1.1rem;
+}
